@@ -28,6 +28,7 @@ vim-data \
 vim-minimal \
 htop \
 braille-printer-app \
+PackageKit-glib \
 gnome-tweaks
 
 # Remove unused fonts
