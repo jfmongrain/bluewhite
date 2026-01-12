@@ -28,7 +28,6 @@ vim-data \
 vim-minimal \
 htop \
 braille-printer-app \
-PackageKit-glib \
 gnome-tweaks
 
 # Remove unused fonts
@@ -91,7 +90,6 @@ dnf5 -y install \
 langpacks-core-fr \
 langpacks-fr \
 simple-scan \
-xdg-terminal-exec \
 papirus-icon-theme-dark
 
 # Install Prontonmail Bridge
