@@ -27,8 +27,8 @@ vim-common \
 vim-data \
 vim-minimal \
 htop \
-braille-printer-app
-#gnome-tweaks
+braille-printer-app \
+gnome-tweaks
 
 # Remove unused fonts
 
