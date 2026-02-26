@@ -5,9 +5,9 @@ set -ouex pipefail
 # Install Cachy Kernel
 
 dnf5 -y copr enable bieszczaders/kernel-cachyos
-dnf5 -y install kernel-cachyos kernel-cachyos-devel-matched
+rpm-ostree override remove kernel kernel-core kernel-modules kernel-modules-core kernel-modules-extra --install kernel-cachyos
 setsebool -P domain_kernel_load_modules on
-dnf copr disable bieszczaders/kernel-cachyos
+dnf5 -y copr disable bieszczaders/kernel-cachyos
 
 # Remove packages
 
