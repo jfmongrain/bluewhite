@@ -2,6 +2,13 @@
 
 set -ouex pipefail
 
+# Install Cachy kernel
+
+dnf copr enable bieszczaders/kernel-cachyos
+dnf install kernel-cachyos kernel-cachyos-devel-matched
+setsebool -P domain_kernel_load_modules on
+dnf copr disable bieszczaders/kernel-cachyos
+
 # Remove packages
 
 dnf5 -y remove \
