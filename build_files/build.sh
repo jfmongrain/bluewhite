@@ -106,3 +106,4 @@ papirus-folders -C yaru --theme Papirus-Dark
 # Enable System Unit Files for HP printer
 
 systemctl enable hp-plugin-install
+systemctl --global enable bazaar.service
