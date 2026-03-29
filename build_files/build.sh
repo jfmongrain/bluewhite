@@ -50,6 +50,7 @@ google-noto-sans-hebrew-vf-fonts \
 google-noto-sans-kannada-vf-fonts \
 google-noto-sans-khmer-vf-fonts \
 google-noto-sans-lao-vf-fonts \
+google-noto-sans-yi-fonts \
 google-noto-sans-meetei-mayek-vf-fonts \
 google-noto-sans-ol-chiki-vf-fonts \
 google-noto-sans-oriya-vf-fonts \
