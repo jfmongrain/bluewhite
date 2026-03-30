@@ -20,7 +20,6 @@ gnome-shell-extension-launch-new-instance \
 gnome-shell-extension-places-menu \
 gnome-shell-extension-window-list \
 gnome-remote-desktop \
-gnome-system-monitor \
 input-remapper \
 firewall-config \
 vim-common \
@@ -29,6 +28,8 @@ vim-minimal \
 htop \
 braille-printer-app \
 gnome-tweaks
+#gnome-system-monitor
+
 
 # Remove unused fonts
 
@@ -91,6 +92,7 @@ dnf5 -y install \
 langpacks-core-fr \
 langpacks-fr \
 simple-scan \
+yelp \
 papirus-icon-theme-dark
 
 # Install Prontonmail Bridge
