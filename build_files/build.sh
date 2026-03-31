@@ -93,6 +93,7 @@ langpacks-core-fr \
 langpacks-fr \
 simple-scan \
 yelp \
+steam \
 papirus-icon-theme-dark
 
 # Install Prontonmail Bridge
