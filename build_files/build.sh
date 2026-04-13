@@ -32,7 +32,8 @@ vim-minimal \
 htop \
 braille-printer-app \
 gnome-tweaks \
-gnome-system-monitor
+gnome-system-monitor \
+bazaar
 
 # Remove unused fonts
 
