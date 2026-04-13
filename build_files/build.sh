@@ -96,9 +96,9 @@ langpacks-core-fr \
 langpacks-fr \
 simple-scan \
 yelp \
-steam \
 heroic-games-launcher-bin \
 papirus-icon-theme-dark
+# steam \
 
 # Install Prontonmail Bridge
 
