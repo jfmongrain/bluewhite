@@ -33,7 +33,6 @@ htop \
 braille-printer-app \
 gnome-system-monitor \
 bazaar
-# gnome-tweaks
 
 # Remove unused fonts
 
@@ -97,6 +96,7 @@ langpacks-core-fr \
 langpacks-fr \
 simple-scan \
 yelp \
+gnome-tweaks \
 papirus-icon-theme-dark \
 heroic-games-launcher-bin
 
