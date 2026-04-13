@@ -4,7 +4,7 @@ set -ouex pipefail
 
 # Enable copr repos
 
-sudo dnf5 -y copr enable atim/heroic-games-launcher
+dnf5 -y copr enable atim/heroic-games-launcher
 
 # Remove packages
 
@@ -113,7 +113,7 @@ papirus-folders -C yaru --theme Papirus-Dark
 
 # Disable copr repos
 
-sudo dnf5 -y copr disable atim/heroic-games-launcher
+dnf5 -y copr disable atim/heroic-games-launcher
 
 # Enable System Unit Files for HP printer
 
