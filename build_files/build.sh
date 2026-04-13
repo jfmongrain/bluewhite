@@ -17,21 +17,14 @@ ibus-anthy-python \
 anthy-unicode \
 ibus-m17n \
 ibus-hangul \
-gnome-tour \
 gnome-shell-extension-gsconnect \
-gnome-shell-extension-apps-menu \
-gnome-shell-extension-launch-new-instance \
-gnome-shell-extension-places-menu \
-gnome-shell-extension-window-list \
 gnome-remote-desktop \
 input-remapper \
 firewall-config \
 vim-common \
 vim-data \
 vim-minimal \
-htop \
 braille-printer-app \
-gnome-system-monitor \
 bazaar
 
 # Remove unused fonts
@@ -95,7 +88,6 @@ dnf5 -y install \
 langpacks-core-fr \
 langpacks-fr \
 simple-scan \
-yelp \
 gnome-tweaks \
 papirus-icon-theme-dark \
 heroic-games-launcher-bin
@@ -113,7 +105,7 @@ papirus-folders -C yaru --theme Papirus-Dark
 
 # Disable copr repos
 
-# dnf5 -y copr disable atim/heroic-games-launcher
+dnf5 -y copr disable atim/heroic-games-launcher
 
 # Enable System Unit Files for HP printer
 
