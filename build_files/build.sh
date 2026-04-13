@@ -4,7 +4,7 @@ set -ouex pipefail
 
 # Enable copr repos
 
-# dnf5 -y copr enable atim/heroic-games-launcher
+dnf5 -y copr enable atim/heroic-games-launcher
 
 # Remove packages
 
@@ -97,8 +97,7 @@ langpacks-fr \
 simple-scan \
 yelp \
 papirus-icon-theme-dark \
-# steam \
-# heroic-games-launcher-bin
+heroic-games-launcher-bin
 
 # Install Prontonmail Bridge
 
