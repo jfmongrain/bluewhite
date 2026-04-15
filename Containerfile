@@ -3,8 +3,7 @@ FROM scratch AS ctx
 COPY build_files /
 
 # Base Image
-FROM ghcr.io/ublue-os/bazzite-gnome:testing
-
+FROM ghcr.io/ublue-os/bluefin:beta
 ## Other possible base images include:
 # FROM ghcr.io/ublue-os/bazzite:latest
 # FROM ghcr.io/ublue-os/bluefin-nvidia:stable-daily
@@ -20,9 +19,9 @@ FROM ghcr.io/ublue-os/bazzite-gnome:testing
 
 COPY system_files/ /
 
-# RUN rm /usr/share/applications/system-update.desktop
-# RUN rm /usr/share/applications/documentation.desktop
-# RUN rm /usr/share/applications/discourse.desktop
+RUN rm /usr/share/applications/system-update.desktop
+RUN rm /usr/share/applications/documentation.desktop
+RUN rm /usr/share/applications/discourse.desktop
 
 RUN --mount=type=bind,from=ctx,source=/,target=/ctx \
     --mount=type=cache,dst=/var/cache \
