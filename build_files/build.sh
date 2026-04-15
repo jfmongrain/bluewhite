@@ -25,7 +25,14 @@ vim-common \
 vim-data \
 vim-minimal \
 braille-printer-app \
-bazaar
+gnome-shell-extension-apps-menu \
+gnome-shell-extension-launch-new-instance \
+gnome-shell-extension-places-menu \
+gnome-shell-extension-window-list \
+gnome-system-monitor \
+htop \
+gnome-tour
+#bazaar
 
 # Remove unused fonts
 
@@ -90,6 +97,8 @@ langpacks-fr \
 simple-scan \
 gnome-tweaks \
 papirus-icon-theme-dark \
+yelp \
+steam \
 heroic-games-launcher-bin
 
 # Install Prontonmail Bridge
