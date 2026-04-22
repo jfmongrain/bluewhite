@@ -4,7 +4,7 @@ set -ouex pipefail
 
 # Enable copr repos
 
-dnf5 -y copr enable atim/heroic-games-launcher
+#dnf5 -y copr enable atim/heroic-games-launcher
 
 # Remove packages
 
@@ -32,7 +32,7 @@ gnome-shell-extension-window-list \
 gnome-system-monitor \
 htop \
 gnome-tour
-#bazaar
+
 
 # Remove unused fonts
 
@@ -95,11 +95,8 @@ dnf5 -y install \
 langpacks-core-fr \
 langpacks-fr \
 simple-scan \
-gnome-tweaks \
 papirus-icon-theme-dark \
 yelp \
-steam \
-heroic-games-launcher-bin
 
 # Install Prontonmail Bridge
 
@@ -114,7 +111,7 @@ papirus-folders -C yaru --theme Papirus-Dark
 
 # Disable copr repos
 
-dnf5 -y copr disable atim/heroic-games-launcher
+#dnf5 -y copr disable atim/heroic-games-launcher
 
 # Enable System Unit Files for HP printer
 
